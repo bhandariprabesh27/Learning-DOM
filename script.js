@@ -18,3 +18,16 @@ selectionOfh5.textContent += "May I come in?";
 
 var selectionOFh4 = document.querySelector("h4");
 selectionOFh4.innerHTML += "<i> ,Hello JI</i>";
+
+//Manipulating Styles and Classes
+//style
+//classList
+var selectP = document.querySelector("p");
+selectP.style.color = "red";
+selectP.style.fontFamily = "montserrat-bold";
+selectP.style.fontSize = "36px";
+//dui ota word jastai font&family xa vane camelCase hunxa, pahilo word bahek paxadi ko sabai word ko first letter capital
+
+var selectFooter = document.querySelector("footer");
+selectFooter.classList.add("makeitred");
+//selectFooter.classList.remove("makeitred"); //yesle style lai feri remove garxa
